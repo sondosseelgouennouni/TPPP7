@@ -8,6 +8,7 @@ export default function SearchEvent({ setFilter, trie }) {
         <option value="personnel">Personnel</option>
         <option value="autre">Autre</option>
       </select>
+
       <button onClick={trie}>Trier par date</button>
     </div>
   );
